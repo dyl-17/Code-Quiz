@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="welcomePage">
+        <header>Welcome to the Code Quiz!</header>
+        <h1 class="startText">Press the button to start the quiz</h1>
+    </div>
+    <button id="start-button"> Start</button>
+
+    <p id="timerElement"> </p>
+
+    <div id='question-container' class='hide' class='next-btn'>
+        <div class = 'questionContainer'> 
+            <p id = 'show-question'> Where question goes </p> 
+        </div>
+        <div id='answer-buttons' class='btn-list'>
+            <button id = 'btn1' class='btn'>1</button>
+            <button id = 'btn2' class='btn'>2</button>
+            <button id = 'btn3' class='btn'>3</button>
+            <button id = 'btn4' class='btn'>4</button>
+        </div>
+        <div class='next-btn btn'>
+            <button id='next-btn'>Next</button>
+        </div>
+    </div>
+    <div id = 'high-score' class = 'hide'>
+        High scores page
+    </div>
+    <form id = 'form' class = 'hide'>
+        <input id = 'initials' type="text"> 
+        <button id = 'submit'>Submit</button>
+    </form>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
